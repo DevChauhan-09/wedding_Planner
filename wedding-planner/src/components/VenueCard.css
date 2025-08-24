@@ -1,0 +1,82 @@
+
+
+.venue-card {
+  width: 300px;
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.venue-card:hover {
+  transform: scale(1.02);
+}
+
+.venue-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.venue-info {
+  padding: 15px;
+}
+
+.venue-name {
+  font-size: 1.2rem;
+  margin: 0 0 5px 0;
+  color: #333;
+}
+
+.venue-location {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+}
+
+.venue-type {
+  font-weight: 500;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.venue-rating-price {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  margin-bottom: 12px;
+}
+
+.rating {
+  color: #f39c12;
+}
+
+.price {
+  color: #27ae60;
+  font-weight: bold;
+}
+
+.venue-tags {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.read-more-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #a569bd;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.read-more-btn:hover {
+  background-color: #8e44ad;
+}
